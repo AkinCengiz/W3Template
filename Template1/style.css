@@ -1,0 +1,280 @@
+*{
+    list-style: none;
+}
+body{
+    background-color: #F5F7F8;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container-fluid {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.container-fluid,.row{
+    margin: 0;
+    padding: 0;
+}
+#header-logo{
+    background-color: #3A4B53;
+    color: white;
+    padding: 12px 24px;
+}
+#header-logo a{
+    color: inherit;
+}
+#header-logo i{
+    margin-right: 18px;
+}
+#header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4D636F;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#header-nav{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#nav-list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.nav-list-item{
+    padding: 12px 24px;
+    margin: 0;
+}
+.nav-list-item a{
+    
+    color: white;
+}
+#header-profile{
+    padding: 12px 24px;
+    margin: 0;
+    text-align: right;
+}
+#header-profile img{
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0;
+}
+.container{
+    margin-top: 20px;
+}
+#profile-card {
+    color: #607d8b;
+    padding: 0.15em 16px;
+}
+#profile-header{
+    text-align: center;
+}
+.card-image img{
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+}
+
+#list-section {
+    list-style-type: none;
+    padding: 0;
+    background-color: #7d97a5;
+    color: #eee;
+}
+#section-list{
+    margin: 0;
+    padding: 0;
+}
+.section-list-item {
+    padding: 12px 24px;
+}
+
+.theme{
+    background-color: #607D8B;
+    color: white;
+}
+.theme-d1{
+    background-color: #57707D;
+    color: white;
+}
+.theme-d2{
+    background-color: #4D636F;
+    color: white;
+}
+.theme-d3{
+    background-color: #435761;
+    color: white;
+}
+.theme-d4{
+    background-color: #3A4B53;
+    color: white;
+}
+.theme-d5{
+    background-color: #303E45;
+    color: white;
+}
+
+.theme-l1{
+    background-color: #7D97A5;
+    color: white;
+}
+.theme-l2{
+    background-color: #9EB1BB;
+    color: white;
+}
+.theme-l3{
+    background-color: #BECBD2;
+    color: #607d8b;
+}
+.theme-l4{
+    background-color: #DFE5E8;
+    color: #607d8b;
+}
+.theme-l5{
+    background-color: #F5F7F8;
+    color: #607d8b;
+}
+.tag{
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px;
+    margin: 2px;
+}
+.alert-box{
+    border: 1px solid silver;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+}
+.btn-x{
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0;
+    align-items: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.alert-box p{
+    margin: 10px;
+}
+
+.section-list-text{
+    margin-left: 20px;
+}
+.color-d1{
+    color: #607d8b;
+}.padding-10{
+    padding: 10px;
+}
+.padding-20{
+    padding: 20px;
+}
+.radius-50 {
+    border-radius: 50%;
+}
+.w-60{
+    width: 60px;
+}
+.h-auto{
+    height: auto;
+}
+.m-0{
+    margin: 0;
+}
+.p-0{
+    padding: 0;
+}
+.ml-0{
+    margin-left: 10px;
+}
+.mr-0{
+    margin-right: 0;
+}
+.pl-5{
+    padding-left: 5px;
+}
+.pr-5{
+    padding-right: 5px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.top-right-0{
+    top: 0;
+    right: 0;
+}
+.flexy{
+    display: flex;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.vertical-center{
+    align-items: center;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.inline-block{
+    display: inline-block;
+}
+.hidden{
+    overflow: hidden;
+}
+.btn{
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+.mx-0{
+    margin-left: 0;
+    margin-right: 0;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.theme-success{
+    background-color: #E0E0E0;
+    color: white;
+}
+.theme-danger{
+    background-color: #F88E86;
+    color: white;
+}
